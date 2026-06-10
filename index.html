@@ -1,10 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>BK Book 24/7</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup ID | Premium Sports & Casino</title>
+    <style>
+        :root {
+            --primary: #f1c40f; /* Premium Gold */
+            --accent: #e74c3c; /* Bonus Red */
+            --bg-dark: #0a0a0c;
+            --card-bg: #1a1a24;
+            --text-light: #ffffff;
+            --text-muted: #a0a0b0;
+            --whatsapp: #25D366;
+            --whatsapp-dark: #128C7E;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(241, 196, 15, 0.08), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(37, 211, 102, 0.08), transparent 25%);
+        }
+
+        .container {
+            background: linear-gradient(145deg, var(--card-bg), #121218);
+            border: 1px solid rgba(241, 196, 15, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5), 0 0 20px rgba(241, 196, 15, 0.05);
+            margin: 30px 0;
+        }
+
+        .header-tag {
+            background: rgba(241, 196, 15, 0.1);
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 20px;
+            display: inline-block;
+            border: 1px solid rgba(241, 196, 15, 0.3);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #ffffff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .bonus-box {
+            background: linear-gradient(45deg, var(--accent), #c0392b);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-weight: 800;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+            animation: pulse-bonus 2s infinite;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @keyframes pulse-bonus {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 35px;
+        }
+
+        .feature-item {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 15px 10px;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: #ddd;
+        }
+
+        .whatsapp-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--whatsapp);
+            color: white;
+            text-decoration: none;
+            padding: 18px 30px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            border-radius: 50px;
+            transition: all 0.3s;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            width: 100%;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: var(--whatsapp-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6);
+        }
+
+        .whatsapp-icon {
+            width: 28px;
+            height: 28px;
+            margin-right: 10px;
+            fill: currentColor;
+        }
+
+        /* Responsible Gaming Footer */
+        .footer-info {
+            margin-top: 35px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .age-logo {
+            width: 45px;
+            height: 45px;
+            opacity: 0.8;
+        }
+
+        .responsible-text {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            line-height: 1.5;
+        }
+
+        .responsible-text strong {
+            color: #ffffff;
+            font-size: 0.95rem;
+            display: block;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-links {
+            margin-top: 5px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 2.3rem; }
+            .features { grid-template-columns: 1fr; }
+            .container { padding: 30px 20px; width: 95%; }
+            .whatsapp-btn { padding: 16px 20px; font-size: 1.15rem; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to BK Book 24/7</h1>
-    <p>India's Trusted Online Betting Platform.</p>
+
+    <div class="container">
+        <div class="header-tag">Official Platform</div>
+        
+        <h1>World Cup ID</h1>
+        <p class="subtitle">Premium Sports Betting & Live Casino</p>
+        
+        <div class="bonus-box">
+            🔥 Get Up To 100% Welcome Bonus! 🔥
+        </div>
+
+        <div class="features">
+            <div class="feature-item">⚽ World Cup Matches</div>
+            <div class="feature-item">🏏 Live Sports Lines</div>
+            <div class="feature-item">🎰 24/7 Casino Games</div>
+            <div class="feature-item">⚡ Instant Withdrawals</div>
+        </div>
+
+        <!-- Update YOUR_PHONE_NUMBER below (include country code, omit + symbol) -->
+        <a href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi,%20I%20want%20to%20get%20my%20World%20Cup%20ID%20and%20claim%20the%20100%25%20Bonus!" class="whatsapp-btn" target="_blank">
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+            </svg>
+            Get ID Now
+        </a>
+
+        <!-- Footer Section -->
+        <div class="footer-info">
+            <!-- SVG 18+ Icon -->
+            <svg class="age-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="45" stroke="#e74c3c" stroke-width="8" fill="none"/>
+                <text x="50" y="65" font-size="42" fill="#e74c3c" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900">18+</text>
+            </svg>
+            
+            <div class="responsible-text">
+                <strong>Play Responsibly</strong>
+                This platform is strictly for users aged 18 and older. Betting involves financial risk and can be addictive. Please play responsibly and within your limits.
+                
+                <div class="footer-links">
+                    <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
